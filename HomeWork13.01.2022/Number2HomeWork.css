@@ -1,0 +1,16 @@
+.block{
+    background: #4b4646;
+    width: 450px;
+    height: 250px;
+    margin-left: 50px;
+    margin-top: 50px;
+    box-shadow: #a67511 -50px -30px 90px -5px;
+}
+.border{
+    margin-left: 50px;
+    margin-top: 50px;
+    border-left: 4px solid red;
+}
+.border p{
+    margin: 20px;
+}
