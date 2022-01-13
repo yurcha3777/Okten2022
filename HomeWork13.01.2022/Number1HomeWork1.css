@@ -19,7 +19,10 @@ body{
     text-align: center;
     margin-bottom: 15px;
 
-
+}
+.orange p {
+    margin-left: auto;
+    margin-right: auto;
 }
 .blue{
     width: 170px;
@@ -30,7 +33,10 @@ body{
     text-align: center;
     margin-bottom: 15px;
 
-
+}
+.blue p {
+    margin-left: auto;
+    margin-right: auto;
 }
 .pink{
     width: 170px;
@@ -41,7 +47,10 @@ body{
     text-align: center;
     margin-bottom: 15px;
 
-
+}
+.pink p {
+    margin-left: auto;
+    margin-right: auto;
 }
 .red{
     width: 170px;
@@ -50,4 +59,8 @@ body{
     color: #d70f0f;
     border-radius: 50px;
     text-align: center;
+}
+.red p {
+    margin-left: auto;
+    margin-right: auto;
 }
