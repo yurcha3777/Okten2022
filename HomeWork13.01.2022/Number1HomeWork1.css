@@ -1,0 +1,53 @@
+body{
+    background: #4b4646;
+}
+.menu{
+    /*background: #d70f0f;*/
+    /*display: flex;*/
+    margin-left: 580px;
+    margin-top: 200px;
+
+    flex-direction: column;
+    justify-content: center;
+}
+.orange{
+    width: 170px;
+    height: 50px;
+    border: 4px solid orange;
+    color: #e18e0f;
+    border-radius: 50px;
+    text-align: center;
+    margin-bottom: 15px;
+
+
+}
+.blue{
+    width: 170px;
+    height: 50px;
+    border: 4px solid turquoise;
+    color: turquoise;
+    border-radius: 50px;
+    text-align: center;
+    margin-bottom: 15px;
+
+
+}
+.pink{
+    width: 170px;
+    height: 50px;
+    border: 4px solid deeppink;
+    color: deeppink;
+    border-radius: 50px;
+    text-align: center;
+    margin-bottom: 15px;
+
+
+}
+.red{
+    width: 170px;
+    height: 50px;
+    border: 4px solid red;
+    color: #d70f0f;
+    border-radius: 50px;
+    text-align: center;
+}
