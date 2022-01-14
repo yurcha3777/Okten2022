@@ -1,0 +1,39 @@
+.number1{
+    background: darkred;
+    height: 30px;
+    /*display: flex;*/
+    /*justify-content: flex-end;*/
+    color: whitesmoke;
+    padding-left: 1000px;
+    padding-bottom: 10px;
+    margin: 15px;
+}
+.number2{
+    background: silver;
+    height: 70px;
+    padding-left: 20px;
+    padding-top: 25px;
+    margin-left: 15px;
+    font-size: x-large;
+}
+.number3{
+    background: dodgerblue;
+    height: 100px;
+    padding-top: 25px;
+    margin-left: 15px;
+    font-size: x-large;
+
+}
+.number4{
+    background: rgba(60, 179, 113, 0.75);
+    width: 250px;
+    height: 220px;
+    margin-left: 15px;
+}
+.number5{
+    background: rgba(94, 49, 128, 0.63);
+    width: 250px;
+    height: 220px;
+    margin-left: 15px;
+    border-radius: 25px;
+}
