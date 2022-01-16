@@ -1,0 +1,77 @@
+body{
+    background: silver;
+}
+.wrap{
+    width: 900px;
+    height: 650px;
+    background: whitesmoke;
+    margin: auto;
+    border-radius: 10px;
+    border: 2px solid grey;
+}
+.header {
+    height: 100px;
+    background: grey;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center{
+    display: flex;
+
+}
+.center3{
+    display: flex;
+
+}
+.center4{
+    display: flex;
+}
+.postC{
+    width: 236px;
+    height: 256px;
+    background: grey;
+    margin-left: 10px;
+}
+.postD{
+    width: 236px;
+    height: 256px;
+    background: grey;
+    margin-left: 10px
+}
+.postE{
+    width: 236px;
+    height: 256px;
+    background: grey;
+    margin-left: 10px;
+}
+.postF{
+    width: 236px;
+    height: 256px;
+    background: grey;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.postG{
+    width: 236px;
+    height: 256px;
+    background: grey;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.postH{
+    width: 236px;
+    height: 256px;
+    background: grey;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.center5{
+    height: 521px;
+    width: 140px;
+    background: grey;
+    margin-left: 10px;
+
+}
