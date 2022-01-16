@@ -1,0 +1,58 @@
+.header{
+    height: 200px;
+    width: 1400px;
+    background: rgba(40, 40, 206, 0.69);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+
+}
+.nav{
+    height: 150px;
+    background: rgba(62, 62, 133, 0.83);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+
+}
+.main{
+    width: 1050px;
+    height: 400px;
+    background: #3e3eef;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+
+
+}
+.aside{
+    width: 350px;
+    height: 400px;
+    background: #9e9efa;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+
+}
+
+.center{
+    display: flex;
+}
+.menu{
+    display: flex;
+}
+.footer{
+    height: 200px;
+    width: 1400px;
+    background: rgba(40, 40, 206, 0.69);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+
+
+}
