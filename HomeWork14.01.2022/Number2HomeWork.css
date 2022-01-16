@@ -1,0 +1,60 @@
+.header{
+    height: 250px;
+    background: rgba(0, 0, 255, 0.6);
+    color: whitesmoke;
+    font-size: x-large;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu{
+    display: flex;
+
+}
+.post1{
+    width: 415px;
+    height: 400px;
+    background: rgba(0, 0, 255, 0.85);
+    margin: 15px;
+    color: whitesmoke;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.post2{
+    width: 415px;
+    height: 400px;
+    background:rgba(0, 0, 255, 0.85);
+    margin: 15px;
+    color: whitesmoke;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.post3{
+    width: 415px;
+    height: 400px;
+    background: rgba(0, 0, 255, 0.85);
+    margin: 15px;
+    color: whitesmoke;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contact{
+    height: 450px;
+    background: rgba(0, 0, 255, 0.6);
+    color: whitesmoke;
+    font-size: x-large;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
