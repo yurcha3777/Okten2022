@@ -1,0 +1,81 @@
+
+.home{
+    width: 400px;
+    height: 450px;
+    background: #026cbb;
+    margin-right: 15px;
+    font-size: x-large;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.about{
+    width: 400px;
+    height: 450px;
+    background: #026cbb;
+    font-size: x-large;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.header1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.kabobs{
+    width: 815px;
+    height: 300px;
+    background: rgb(2, 108, 187);
+    font-size: x-large;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-top: 15px;
+}
+.shishkabobs{
+    width: 261px;
+    height: 350px;
+    background: rgb(2, 71, 123);
+    font-size: x-large;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+.bbqkabobs{
+    width: 261px;
+    height: 350px;
+    background: rgb(2, 71, 123);
+    font-size: x-large;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.summerkabobs{
+    width: 261px;
+    height: 350px;
+    background: rgb(2, 71, 123);
+    font-size: x-large;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
