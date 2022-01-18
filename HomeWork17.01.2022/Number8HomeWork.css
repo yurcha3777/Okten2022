@@ -1,0 +1,41 @@
+body {
+    background: deepskyblue;
+    margin-top: 100px;
+    margin-left: 330px;
+}
+
+p {
+    color: #8f8f8f;
+    font-size: 12px ;
+    padding-left: 15px;
+    font-weight: 300;
+    word-spacing: 5px;
+}
+
+h3 {
+    color: orange;
+    font-size: 12px;
+    padding-left: 13px;
+    font-weight: 200;
+}
+.icons {
+    box-sizing: border-box;
+    margin-left: 5px;
+    font-size: 25px;
+}
+
+.wrap {
+    display: flex;
+}
+
+.block1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    width: 350px;
+    height: 120px;
+    background: #fefefe;
+    margin: 15px;
+    border-radius: 5px;
+}
