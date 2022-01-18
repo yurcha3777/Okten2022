@@ -1,0 +1,40 @@
+.dspflex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+}
+
+.header {
+    height: 200px;
+    width: 1400px;
+    background: rgba(40, 40, 206, 0.69);
+}
+
+.nav {
+    height: 150px;
+    background: rgba(62, 62, 133, 0.83);
+}
+
+.main {
+    width: 1050px;
+    height: 400px;
+    background: #3e3eef;
+}
+
+.aside {
+    width: 350px;
+    height: 400px;
+    background: #9e9efa;
+}
+
+.dspflex1 {
+    display: flex;
+}
+
+.footer {
+    height: 200px;
+    width: 1400px;
+    background: rgba(40, 40, 206, 0.69);
+}
+
