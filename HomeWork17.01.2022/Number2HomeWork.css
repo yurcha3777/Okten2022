@@ -1,0 +1,31 @@
+.wrap {
+    width: 1350px;
+}
+
+.block {
+    background: rgba(0, 0, 255, 0.6);
+    color: whitesmoke;
+    font-size: x-large;
+    margin: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    height: 250px;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+}
+
+.post1 {
+    width: 415px;
+    height: 400px;
+}
+
+.contact {
+    height: 450px;
+}
