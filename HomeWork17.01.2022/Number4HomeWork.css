@@ -1,0 +1,38 @@
+body {
+    background: silver;
+}
+
+.block {
+    background: grey;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap {
+    width: 900px;
+    height: 675px;
+    background: whitesmoke;
+    margin: auto;
+    border-radius: 10px;
+    border: 2px solid grey;
+}
+
+.header {
+    height: 100px;
+}
+
+.centerflex {
+    display: flex;
+}
+
+.postC {
+    width: 236px;
+    height: 256px;
+}
+
+.center5 {
+    height: 531px;
+    width: 140px;
+}
