@@ -9,7 +9,7 @@ body {
 p {
     color: #8f8f8f;
     font-size: 12px ;
-    padding-left: 55px;
+    padding-left: 15px;
     font-weight: 300;
     word-spacing: 5px;
 }
@@ -17,13 +17,12 @@ p {
 h3 {
     color: orange;
     font-size: 12px;
-    padding-left: 50px;
+    padding-left: 13px;
     font-weight: 200;
-    text-align: left;
 }
 .icons {
     box-sizing: border-box;
-    margin-left: 50px;
+    margin-left: 10px;
     font-size: 25px;
 }
 
