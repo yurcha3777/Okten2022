@@ -1,0 +1,53 @@
+.block3 {
+    background: #026cbb;
+    font-size: x-large;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.margleft{
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.home {
+    width: 400px;
+    height: 450px;
+    margin-right: 15px;
+}
+
+.about {
+    width: 400px;
+    height: 450px;
+}
+
+.dspflex3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kabobs {
+    width: 815px;
+    height: 300px;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.shishkabobs {
+    width: 261px;
+    height: 350px;
+    margin-top: 15px;
+}
+
+.bbqkabobs {
+    width: 261px;
+    height: 350px;
+}
+
+.summerkabobs {
+    width: 261px;
+    height: 350px;
+}
