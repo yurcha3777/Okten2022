@@ -31,29 +31,51 @@ body{
     display: flex;
 }
 
-    @media screen and (max-width: 812px){
-        .wrap{
-            width: 360px;
-            height: 450px;
+@media screen and (max-width: 425px){
+    .wrap{
+        width: 360px;
+        height: 450px;
 
-        }
-        .menu{
-            display: inline-block;
-        }
-        .a{
-            height: 50px;
-            border-radius: 10px;
-            margin: 10px;
-        }
-        .b{
-            width: 340px;
-            height: 300px;
-            border-radius: 10px;
-        }
-        .c{
-            width: 340px;
-            height: 50px;
-            border-radius: 10px;
-            margin: 10px;
-        }
     }
+    .menu{
+        display: inline-block;
+    }
+    .a{
+        height: 50px;
+        border-radius: 10px;
+        margin: 10px;
+    }
+    .b{
+        width: 340px;
+        height: 300px;
+        border-radius: 10px;
+    }
+    .c{
+        width: 340px;
+        height: 50px;
+        border-radius: 10px;
+        margin: 10px;
+    }
+}
+@media screen and (min-width: 426px)and (max-width: 768px){
+    .wrap{
+        width: 740px;
+        height: 505px;
+    }
+    .menu{
+        display: inline-block;
+    }
+    .a{
+        border-radius: 10px;
+    }
+    .b{
+        width: 720px;
+        height: 250px;
+        border-radius: 10px;
+    }
+    .c{
+        width: 720px;
+        height: 100px;
+        border-radius: 10px;
+    }
+}

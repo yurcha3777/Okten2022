@@ -1,8 +1,7 @@
-.wrap {
+.wrap{
     width: 1350px;
 }
-
-.block {
+.block{
     background: rgba(0, 0, 255, 0.6);
     color: whitesmoke;
     font-size: x-large;
@@ -11,21 +10,28 @@
     justify-content: center;
     align-items: center;
 }
-
-.header {
+.header{
     height: 250px;
 }
-
-.menu {
+.menu{
     display: flex;
     justify-content: space-between;
-}
 
-.post1 {
+}
+.post1{
     width: 415px;
     height: 400px;
+    background: rgba(0, 0, 255, 0.85);
+    margin: 15px;
+    color: whitesmoke;
+    font-size: x-large;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
 }
 
-.contact {
+.contact{
     height: 450px;
+
 }
