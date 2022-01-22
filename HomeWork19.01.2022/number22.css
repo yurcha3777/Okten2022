@@ -1,0 +1,84 @@
+.number1 {
+    width: 200px;
+    height: 150px;
+    margin-right: 10px;
+    margin-top: 10px;
+
+}
+
+.number2 {
+    width: 1125px;
+    height: 150px;
+    margin-top: 10px;
+}
+
+.block1 {
+    display: flex;
+}
+
+.number3 {
+    width: 200px;
+    height: 700px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.number8 {
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.number9 {
+    width: 200px;
+    height: 150px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.number4 {
+    width: 900px;
+    height: 200px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.number5 {
+    width: 215px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.dsp_flx {
+    display: flex;
+}
+
+.number6 {
+    width: 900px;
+    height: 810px;
+    margin-top: 10px;
+}
+
+.number7 {
+    width: 215px;
+    height: 810px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.block3 {
+    width: 1335px;
+    height: 200px;
+    margin-top: 10px;
+}
+
+.txt {
+    background: silver;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: xx-large;
+    color: #d70f0f;
+    border-radius: 5px;
+}
