@@ -6,6 +6,7 @@
     background: white;
     display: flex;
     justify-content: space-between;
+    align-items: center;
 
 }
 .block1{
@@ -13,13 +14,18 @@
     height: 25px;
     background-color: silver;
     border-radius: 5px;
-    margin: 10px;
+
 }
 .block_2{
     width: 8%;
     height: 1000px;
     border: 3px solid black;
     background: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
 }
 
 .nav{
@@ -30,15 +36,14 @@
     height: 250px;
     border: 3px solid black;
     background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .block3{
     width: 90%;
     height: 220px;
     background: silver;
-    display: flex;
-    justify-content: center;
-    margin: auto;
-    margin-top: 15px;
     border-radius: 5px;
     font-size: xx-large;
 }
@@ -48,12 +53,12 @@
     border: 3px solid black;
     display: flex;
     justify-content: space-around;
+    align-items: center;
 }
 .block4{
     width: 15%;
     height: 70px;
     background: silver;
-    margin-top: 15px;
     border-radius: 5px;
 
 
@@ -64,33 +69,36 @@
     border: 3px solid black;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
 
 }
 .block5{
     width: 15%;
     height: 50px;
     background: silver;
-    margin: 50px;
     border-radius: 5px;
-
 }
 
 .block_6{
     width: 234px;
     height: 450px;
     border: 3px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 .block6{
     width: 70%;
     height: 50px;
     background: silver;
-    margin-top: 10px;
-    margin-left: 42px;
+
     border-radius: 5px;
 
 }
 .center_middle{
-    display: inline-flex;
+    display: flex;
 }
 .nav1{
     display: flex;
@@ -99,13 +107,15 @@
     width: 1240px;
     height: 182px;
     border: 3px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .block7{
     width: 90%;
     height: 50px;
     background: silver;
-    margin-top: 10px;
-    margin-left: 50px;
     border-radius: 5px;
 
 }
@@ -113,8 +123,6 @@
     width: 25%;
     height: 50px;
     background: silver;
-    margin-top: 30px;
-    margin-left: 450px;
     border-radius: 5px;
 
 }
@@ -143,19 +151,17 @@
         width: 60%;
         display: flex;
         flex-wrap: wrap;
-
+        justify-content: space-evenly;
     }
     .block6{
         width: 15%;
-        margin-right: 100px;
-        margin-top: 120px;
-        margin-left: 120px;
+
     }
     .center_middle{
-        display: block;
+        display: inline;
     }
     .block_7{
-
+        width: ;
     }
     
 
