@@ -67,7 +67,7 @@
 // document.write(truthF);
 //
 // // 3)  Переприсвоїти кожній змінній з завдання значення на довільне.
-// // 2)   Вивести кожну змінну за допомогою: console.log , alert, document.write
+// // 4)   Вивести кожну змінну за допомогою: console.log , alert, document.write
 
 // hey = 'hey';
 // okay = 'okay';
@@ -94,8 +94,8 @@
 // let lastName = 'Ivantsiv';
 // let person = firstName +' '+ middleName +' '+ lastName;
 // let res = `${firstName}   ${middleName} ${lastName}`;
+// console.log(person);
 // console.log(res);
-// console.log(person)
 
 // 6) За допомогою 3х різних prompt() отримати 3 слова які являються вашими Імям, По-Батькові та роками.
 // 7) Вивести "Вітаю *Імя* *По батькові*. Тобі *вік* років".
@@ -110,11 +110,11 @@
 // 9)  let a = 100; let b = '100'; let c = true;
 
 // let a = 100;
-// console.log(typeof a)
+// console.log(typeof a);
 // let b = '100';
-// console.log(typeof b)
+// console.log(typeof b);
 // let c = true;
-// console.log(typeof c)
+// console.log(typeof c);
 
 // 10) Визначити відповідний оператор в виразах що б вийшов відповідний результат.
 // 11) В однакових виразах не використовувати однакові оператори!!!
