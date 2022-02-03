@@ -73,7 +73,7 @@
 // if (year % 4 === 0) {
 //     console.log('високосний рік')
 // } else {
-//     console.log('високосний рік')
+//     console.log('не високосний рік')
 // }
 // year % 4 === 0 ? console.log('+') : console.log('-')
 
