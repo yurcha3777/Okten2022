@@ -31,7 +31,7 @@
 //     document.write(`<div>Lorem</div>`)
 // }
 
-// let menu = ['about','contacts','navigation','menu1'];
+// let menu = ['about','contacts','navigation','    menu1'];
 // for (let i = 0; i < menu.length; i++) {
 //     document.write(`<div> ${menu[i]}</div>`)
 // }
@@ -137,12 +137,14 @@
 //     document.write([i]);
 // }
 
+
 // for (let i = 0; i < 100; i++) {
 //     if ( i % 2 === 0 ){
 //     console.log([i]);
 //     document.write([i]);
 //   }
 // }
+
 
 // for (let i = 0; i < 100; i++) {
 //     if (i % 2 === 1) {
