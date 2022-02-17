@@ -135,8 +135,10 @@
 // console.log(capitalize(str))
 //
 
-let capitalize = (str) => {
-    return str.split(' ').map(word=>word.charAt(0).toUpperCase()+word.slice(1)).join(' ');
-};
-document.write(capitalize('okten hi you are welcome'));
-console.log(capitalize('okten hi you are welcome'));
+// let capitalize = (str) => {
+//     return str.split(' ').map(word=>word.charAt(0).toUpperCase()+word.slice(1)).join(' ');
+// };
+// document.write(capitalize('okten hi you are welcome'));
+// console.log(capitalize('okten hi you are welcome'));
+
+
