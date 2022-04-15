@@ -94,7 +94,7 @@
 // function objectPeople(arr){
 //
 // for (let i = 0; i < arr.length; i++) {
-//     document.write(`<div>${arr[i].id} ${arr[i].name} ${arr[i].age}</div>`)
+//     document.write(`<div>${arr.id} ${arr[i].name} ${arr[i].age}</div>`)
 //
 // }
 // }
