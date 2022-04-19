@@ -5,6 +5,7 @@
 // -- increaseMaxSpeed (newSpeed) - яка підвищує значення максимальної швидкості на значення newSpeed
 // -- changeYear (newValue) - змінює рік випуску на значення newValue
 // -- addDriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і додає його
+//     в поточний об'єкт car
 
 // function Car (model, producer, year, maxspeed, volume) {
 //
@@ -68,49 +69,45 @@
 //     За допомоги циклу знайти яка попелюшка повинна бути з принцом.
 //     Додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку
 
-
-class Girl {
-    constructor(name, year, sizeleg) {
-        this._name = name;
-        this._year = year;
-        this._sizeleg = sizeleg;
-    }
-
-}
-let newGirl = [
-    new Girl('Olya', 22, 38),
-    new Girl('Olena', 22, 39),
-    new Girl('Oksana', 22, 38),
-    new Girl('Ira', 22, 39),
-    new Girl('Olena', 33, 37),
-    new Girl('Maria', 21, 36),
-    new Girl('Nastya', 20, 36),
-    new Girl('Viktoria', 28, 39),
-    new Girl('Marta', 25, 38),
-    new Girl('Galya', 22, 36),
-]
-console.log(newGirl);
-
-class Prince {
-    constructor(name, year, shoe) {
-
-        this._name = name;
-        this._year = year;
-        this._shoe = shoe;
-    }
-}
-
-let prince = new Prince('Oleg', 33, 37);
-
-let newPara = (newGirl, prince) => {
-    for (const girlElement of newGirl) {
-        if (girlElement._sizeleg === prince._shoe) {
-            return `Твоя дівчина:${girlElement._name}`
-        }
-    }
-}
-console.log(newPara(newGirl, prince));
-
-
-
-
+//
+// class Girl {
+//     constructor(name, year, sizeleg) {
+//         this._name = name;
+//         this._year = year;
+//         this._sizeleg = sizeleg;
+//     }
+//
+// }
+// let newGirl = [
+//     new Girl('Olya', 22, 38),
+//     new Girl('Olena', 22, 39),
+//     new Girl('Oksana', 22, 38),
+//     new Girl('Ira', 22, 39),
+//     new Girl('Olena', 33, 37),
+//     new Girl('Maria', 21, 36),
+//     new Girl('Nastya', 20, 36),
+//     new Girl('Viktoria', 28, 39),
+//     new Girl('Marta', 25, 38),
+//     new Girl('Galya', 22, 36),
+// ]
+// console.log(newGirl);
+//
+// class Prince {
+//     constructor(name, year, shoe) {
+//
+//         this._name = name;
+//         this._year = year;
+//         this._shoe = shoe;
+//     }
+// }
+//
+// let prince = new Prince('Oleg', 33, 37);
+//
+// let newPara = (newGirl, prince) => {
+//     for (const girlElement of newGirl) {
+//         if (girlElement._sizeleg === prince._shoe) {
+//             return `Твоя дівчина:${girlElement._name}`
+//         }
+//     }
+// }
+// console.log(newPara(newGirl, prince));
