@@ -18,7 +18,7 @@
 //             console.log(`їдемо зі швидкістю ${this.maxspeed} km на годину`);
 //         };
 //         this.newMaxSpeed = function (newSpeed) {
-//             this.maxspeed = this.maxspeed
+//             this.maxspeed = newSpeed;
 //         };
 //         this.changeYear = function (newValue) {
 //             this.year = newValue;
@@ -30,84 +30,93 @@
 //
 //      let addCar = new Car('BMW', 'Deichland', 2010, 300, 2.5);
 // console.log(addCar);
-//
-// addCar1 = new Car('Audi', 'Deichland', 2020, 290, 2.2)
-// console.log(addCar1);
-// console.log(addCar1.drive());
-//
+// addCar.changeYear('2220');
+// console.log(addCar);
+// addCar.newMaxSpeed(211);
+// console.log(addCar);
+// addCar.addDriver('Oleg');
+// console.log(addCar);
+
 
 ////                   2.
 // class Car {
-//     constructor (model, producer, year, maxspeed, volume){
+//     constructor(model, producer, year, maxspeed, volume) {
+//
 //         this.model = model;
 //         this.producer = producer;
 //         this.year = year;
 //         this.maxspeed = maxspeed;
 //         this.volume = volume;
 //     }
-//   drive(){
-//       console.log(`Їдемо хі швидкістю ${this.maxspeed}`);
-//   }
-//   newMaxspeed(newSpeed){
-//         this.maxspeed = this.maxspeed + newSpeed;
-//   }
-// changeYear(newValue){
-//         this.year = newValue
+//     drive(){
+//         console.log(`їдемо зі швидкістю ${this.maxspeed} km на годину`);
+//     }
+//     increaseMaxSpeed (newSpeed){
+//         this.maxspeed = newSpeed;
+//     }
+//     changeYear (newValue){
+//         this.year = newValue;
+//     }
+//     addDriver (driver) {
+//         this.drive = driver;
+//     }
 // }
-// addDrive(driver){
-//         thhis.driver = driver
-// }
-// }
-// let car = new Car('audi', 'Ukraine', 2010, 200, 2.3);
-// console.log(car);
-//
-//
-
+// let newModel = new Car('Audi','Deichland',2010,200,2.5);
+// console.log(newModel);
+// newModel.drive()
+// newModel.changeYear(2001);
+// newModel.increaseMaxSpeed(250);
+// newModel.addDriver('Ivan');
+// console.log(newModel);
 
 // -створити класс/функцію конструктор попелюшка з полями ім'я, вік, розмір ноги. Створити масив з 10 попелюшок.
 // Сторити об'єкт класу "принц" за допомоги класу який має поля ім'я, вік, туфелька яку він знайшов.
 //     За допомоги циклу знайти яка попелюшка повинна бути з принцом.
 //     Додатково, знайти необхідну попелюшку за допомоги функції масиву find та відповідного колбеку
 
-//
-// class Girl {
-//     constructor(name, year, sizeleg) {
-//         this._name = name;
-//         this._year = year;
-//         this._sizeleg = sizeleg;
+
+// class Popelyshka{
+//     constructor(name, year, legCm) {
+//         this.name = name;
+//         this.year = year;
+//         this.legCm = legCm;
 //     }
-//
 // }
+//
+// console.log(Popelyshka);
+//
 // let newGirl = [
-//     new Girl('Olya', 22, 38),
-//     new Girl('Olena', 22, 39),
-//     new Girl('Oksana', 22, 38),
-//     new Girl('Ira', 22, 39),
-//     new Girl('Olena', 33, 37),
-//     new Girl('Maria', 21, 36),
-//     new Girl('Nastya', 20, 36),
-//     new Girl('Viktoria', 28, 39),
-//     new Girl('Marta', 25, 38),
-//     new Girl('Galya', 22, 36),
+//     new Popelyshka('Olya', 22, 38),
+//     new Popelyshka('Olena', 22, 39),
+//     new Popelyshka('Oksana', 22, 38),
+//     new Popelyshka('Ira', 22, 39),
+//     new Popelyshka('Olena', 33, 37),
+//     new Popelyshka('Maria', 21, 36),
+//     new Popelyshka('Nastya', 20, 36),
+//     new Popelyshka('Viktoria', 28, 39),
+//     new Popelyshka('Marta', 25, 38),
+//     new Popelyshka('Galya', 22, 36),
 // ]
 // console.log(newGirl);
 //
-// class Prince {
-//     constructor(name, year, shoe) {
 //
-//         this._name = name;
-//         this._year = year;
-//         this._shoe = shoe;
+// class Prince {
+//     constructor(name,year,legCm) {
+//         this.name = name;
+//         this.year = year;
+//         this.legCm = legCm;
 //     }
 // }
 //
-// let prince = new Prince('Oleg', 33, 37);
+// let newPrince = new Prince('Maria',21,36);
+// console.log(newPrince);
 //
-// let newPara = (newGirl, prince) => {
-//     for (const girlElement of newGirl) {
-//         if (girlElement._sizeleg === prince._shoe) {
-//             return `Твоя дівчина:${girlElement._name}`
+//
+// let newPara = (newGirl,newPrince)=>{
+//     for (const newGirlElement of newGirl) {
+//         if (newGirlElement.legCm === newPrince.legCm){
+//             return`твоя дівчина ${newGirlElement.name}`
 //         }
 //     }
 // }
-// console.log(newPara(newGirl, prince));
+// console.log(newPara(newGirl, newPrince));
