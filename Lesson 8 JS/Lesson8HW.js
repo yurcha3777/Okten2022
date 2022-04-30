@@ -9,30 +9,30 @@
 // 8)-- поміняти колір тексту у всіх елементів fc_rules на червоний
 
 // // 1.
-// let byContent = document.getElementById('content');
-// console.log(byContent);
+let byContent = document.getElementById('content');
+console.log(byContent);
 // // 2.
-// let byRules = document.getElementById('rules');
-// console.log(byContent);
+let byRules = document.getElementById('rules');
+console.log(byContent);
 // // 3.
-// byContent.innerHTML = 'Слава Україні'
+byContent.innerHTML = 'Слава Україні'
 // // 4.
-// byRules.innerHTML = 'Героям Слава'
+byRules.innerHTML = 'Героям Слава'
 // // 5.
-// let colorFon = document.body.children
-// for (const colorFonElement of colorFon) {
-//     colorFonElement.style.backgroundColor = 'blue'
-// }
+let colorFon = document.body.children
+for (const colorFonElement of colorFon) {
+    colorFonElement.style.backgroundColor = 'blue'
+}
 // // 6.
-// let colorTxt = document.body.children
-// for (const colorTxtElement of colorTxt) {
-//     colorTxtElement.style.color = 'yellow'
-// }
+let colorTxt = document.body.children
+for (const colorTxtElement of colorTxt) {
+    colorTxtElement.style.color = 'red'
+}
 // // 7.
-// let listClass = document.getElementById('rules');
-// console.log(listClass.classList);
+let listClass = document.getElementById('rules');
+console.log(listClass.classList);
 // // 8.
-// let colorCLass = document.getElementsByClassName('fc_rules');
-// for (const colorCLass1 of colorCLass) {
-//     colorCLass1.style.color = 'red'
-// }
+let colorCLass = document.getElementsByClassName('fc_rules');
+for (const colorCLass1 of colorCLass) {
+    colorCLass1.style.color = 'red'
+}

@@ -74,9 +74,9 @@
 // //     }
 // // }
 // // k)
-// // let getContent_1 = document.getElementsByClassName('content_1');
-// // console.log(getContent_1[0].innerText);
-// // getContent_1[0].style.color = prompt('Enter color:(green,red,purple...)')
+// let getElementContent = document.getElementsByClassName('content_1');
+// getElementContent[0].innerText = prompt('Enter txt:(......)')
+
 // // l)
 // // let newElementP = document.getElementsByTagName('p');
 // // newElementP[0].style.padding = '20px'
