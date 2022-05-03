@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        .menu{
+            display: inline-block;
+        }
+    .menu._active .menu_list{
+        display: block;
+    }
+    .menu._active .menu_button span:first-child{
+        display: none;
+    }
+    .menu._active .menu_button span:last-child{
+        display: block;
+    }
+    .menu_button span:first-child{
+        display: block;
+    }
+    .menu_button span:last-child{
+        display: none;
+    }
+    .menu_button {
+        background: grey;
+        width: 150px;
+    }
+    .menu_link{
+        background: grey;
+        text-decoration: none;
+        color: black;
+    }
+    </style>
+</head>
+<body>
+
+<h2>Завдання 1</h2>
+<div id="text"><h2>Реклама</h2></div>
+<input type="button" id="lesson1" value="натисніть,щоб реклама сховався">
+<hr>
+
+<h2>Завдання 2</h2>
+<input type="button" id="lesson2" value="натисніть,щоб реклама сховався">
+
+<hr>
+
+<h2>Завдання 3</h2>
+<input type="text" id="age">
+<input type="button" id="Lesson3" value="Перевірити вік">
+
+<hr>
+<h2>Завдання 4</h2>
+<nav class="menu">
+    <button type="button" class="menu_button">
+    <span>Відкрити меню</span>
+    <span>Закрити меню</span>
+    </button>
+    <ul hidden class="menu_list">
+        <li><a href="#" class="menu_link">Перші страви</a></li>
+        <li><a href="#" class="menu_link">Другі страви</a></li>
+        <li><a href="#" class="menu_link">Десерти</a></li>
+        <li><a href="#" class="menu_link">Наопої</a></li>
+    </ul>
+</nav>
+</div>
+<hr>
+<h2>Завдання 5</h2>
+
+<script src="Lesson10.js"></script>
+</body>
+</html>
