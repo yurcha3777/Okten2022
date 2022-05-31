@@ -4,49 +4,49 @@
 //   Доступ до інпутів через Forms API. Отже дайте формі та інпутам всі необхідні атрибути.
 
 
-// let div1 = document.createElement('div');
-// div1.innerText = 'Block_1'
-// div1.style.margin = '20px';
-// document.body.appendChild(div1)
-//
-// let div2 = document.createElement('div');
-// div2.innerText = 'Block_2'
-// div2.style.margin = '20px'
-// document.body.appendChild(div2)
-//
-// let form1 = document.createElement('form');
-// form1.setAttribute('name','form1')
-// div1.append(form1)
-//
-// let form2 = document.createElement('form');
-// form2.setAttribute('name','form2')
-// div2.append(form2)
-//
-// let input1 = document.createElement('input')
-// input1.setAttribute('name','input1')
-//
-// let input2 = document.createElement('input')
-// input2.setAttribute('name','input2')
-//
-// let input3 = document.createElement('input')
-// input3.setAttribute('name','input3')
-//
-// let input4 = document.createElement('input')
-// input4.setAttribute('name','input4')
-//
-// let button = document.createElement('button');
-// button.innerText = 'CLICK ME PLEASE'
-// document.body.appendChild(button)
-//
-// form1.append(input1,input2)
-// form2.append(input3,input4)
-//
-// button.addEventListener('click', function () {
-//     console.log(document.forms.form1.input1.value);
-//     console.log(document.forms.form1.input2.value);
-//     console.log(document.forms.form2.input3.value);
-//     console.log(document.forms.form2.input4.value);
-// })
+let div1 = document.createElement('div');
+div1.innerText = 'Block_1'
+div1.style.margin = '20px';
+document.body.appendChild(div1)
+
+let div2 = document.createElement('div');
+div2.innerText = 'Block_2'
+div2.style.margin = '20px'
+document.body.appendChild(div2)
+
+let form1 = document.createElement('form');
+form1.setAttribute('name','form1')
+div1.append(form1)
+
+let form2 = document.createElement('form');
+form2.setAttribute('name','form2')
+div2.append(form2)
+
+let input1 = document.createElement('input')
+input1.setAttribute('name','input1')
+
+let input2 = document.createElement('input')
+input2.setAttribute('name','input2')
+
+let input3 = document.createElement('input')
+input3.setAttribute('name','input3')
+
+let input4 = document.createElement('input')
+input4.setAttribute('name','input4')
+
+let button = document.createElement('button');
+button.innerText = 'CLICK ME PLEASE'
+document.body.appendChild(button)
+
+form1.append(input1,input2)
+form2.append(input3,input4)
+
+button.addEventListener('click', function () {
+    console.log(document.forms.form1.input1.value);
+    console.log(document.forms.form1.input2.value);
+    console.log(document.forms.form2.input3.value);
+    console.log(document.forms.form2.input4.value);
+})
 
 
 // - Створити 3 инпута та кнопку. Один визначає кількість рядків, другий - кількість ячеєк, третій вмиіст ячеєк.

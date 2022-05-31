@@ -8,13 +8,6 @@
 // }
 
 
-// // Создайте кнопку, при клике на которую, она будет скрывать сама себя.
-
-// let idLesson2 = document.getElementById('lesson2')
-// idLesson2.onclick = function () {
-//     idLesson2.style.display = 'none'
-// }
-
 
 // - створити інпут який приймає вік людини та кнопку яка підтверджує дію.
 //     При натисканні на кнопку зчитати інформацію з інпуту та перевірити вік чи меньше він ніж 18,
@@ -52,12 +45,12 @@
 //     Вывести список комментариев в документ, каждый в своем блоке.
 //     Добавьте каждому комментарию по кнопке для сворачивания его body.
 
-let people = [
-    {name: 'Oleg', body: 'Слава Украіні'},
-    {name: 'Olya', body: 'Смерть ворогам'},
-    {name: 'Maria', body: 'Украіна понад усе'},
-    {name: 'Andriy', body: 'Україна'},
-];
+// let people = [
+//     {name: 'Oleg', body: 'Слава Украіні'},
+//     {name: 'Olya', body: 'Смерть ворогам'},
+//     {name: 'Maria', body: 'Украіна понад усе'},
+//     {name: 'Andriy', body: 'Україна'},
+// ];
 // let divBoss = document.createElement('div')
 // for (const person of people) {
 //     let div1 = document.createElement('div')
