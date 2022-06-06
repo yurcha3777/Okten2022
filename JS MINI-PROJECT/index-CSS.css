@@ -1,0 +1,19 @@
+.divBoss {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.divOne {
+    width: 19%;
+    height: 170px;
+    border: 1px solid black;
+    border-radius: 10px;
+    text-align: center;
+    background-color: lavender;
+    margin-bottom: 30px;
+}
+.btn a {
+    text-decoration: none;
+    color: black;
+}

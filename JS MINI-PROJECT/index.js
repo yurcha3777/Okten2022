@@ -5,7 +5,24 @@
 //  которая имеет детальную информацию про объект на который кликнули
 
 fetch('https://jsonplaceholder.typicode.com/users')
-    .then(e => e.json())
-    .then(value => {
-        iter
+    .then(users => users.json())
+    .then(users => {
+        const divBoss = document.createElement('div');
+        document.body.appendChild(divBoss)
+        divBoss.setAttribute('class', 'divBoss');
+        for (const user of users) {
+            const divOne = document.createElement('div');
+            divOne.innerHTML = `<h3>ID: ${user.id}</h3> <h3>Name: ${user.name}</h3>`
+            divOne.setAttribute('class', 'divOne');
+            divBoss.append(divOne)
+            const btn = document.createElement('button');
+            btn.setAttribute('class', 'btn')
+            divOne.append(btn)
+            btn.onclick = () => {
+                localStorage.setItem('user', JSON.stringify(user))
+            }
+            btn.innerHTML = `<a href="user-details.html">details</a>`
+
+
+        }
     })
