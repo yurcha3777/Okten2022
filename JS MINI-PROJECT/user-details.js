@@ -6,18 +6,33 @@
 // которая имеет детальную информацию про текущий пост.
 //
 
-let user = JSON.parse(localStorage.getItem('user'))
-fetch(`https://jsonplaceholder.typicode.com/users/${user.id}/posts`)
-    .then(posts => posts.json())
-    .then(posts => {
-        const divBossOne = document.createElement('div');
-        divBossOne.setAttribute('class', 'divBossOne')
-        document.body.append(divBossOne)
-        for (const post of posts) {
-            const divTwo = document.createElement('div')
-            divBossOne.append(divTwo)
-            divTwo.innerHTML = `<h2>User ID: ${post.userId}</h2> <h3>ID: ${post.id}</h3> <h4>Title: ${post.title}</h4> <p>Body: ${post.body}</p>`
-            divTwo.setAttribute('class','divTwo')
+let user = JSON.parse(localStorage.getItem('user'));
 
-        }
-    })
+const divBossOne = document.createElement('div');
+divBossOne.setAttribute('class', 'divBossOne')
+const divBossOneInfo = document.createElement('div')
+divBossOneInfo.setAttribute('class', 'divBossOneInfo')
+divBossOneInfo.innerHTML = `
+<h1>ID: ${user.id}</h1>
+<h2>Name: ${user.name}</h2>
+<h3>Email: ${user.email}</h3>
+<ul>Adrees:
+<li>Street: ${user.address.street};</li>
+<li>Suite: ${user.address.suite};</li>
+<li>City: ${user.address.city};</li>
+</ul>
+<h4>Phone: ${user.phone}</h4>
+<h5>Website: ${user.website}</h5>
+<ul>Company:
+<li>Name: ${user.company.name};</li>
+<li>CatchPhrase: ${user.company.catchPhrase};</li>
+<li>Bs: ${user.company.bs};</li>
+</ul>
+`
+const btn2 = document.createElement('button');
+btn2.setAttribute('class', 'btn2')
+btn2.innerHTML = `<a href="post-details.html">post-details</a>`
+divBossOneInfo.append(btn2)
+document.body.append(divBossOne)
+divBossOne.append(divBossOneInfo)
+
